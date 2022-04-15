@@ -1,0 +1,36 @@
+html {
+    background-color: #FFF5EE;
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.personalPhoto {
+    width: 15%;
+    height:15%;
+    border-radius: 8px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    text-align: center;
+}
