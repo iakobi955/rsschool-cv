@@ -13,6 +13,15 @@ html {
 }
 h2 {
     font-weight: 100;
+    width: fit-content;
+    margin: auto;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+h2:hover {
+    position: relative;
+    font-weight: 400;
+    transform: scale(1.1);
 }
 img {
     width: 20px;
@@ -114,4 +123,26 @@ section, aside {
 #contactInfo li img {
     margin: auto;
     padding-right: 7px;
+}
+.ContactInfo, #education, #languages {
+    padding: 50px 0 10px 0;
+}
+p {
+    line-height: 1.5;
+}
+#footer {
+    border-radius: 8px;
+    padding:10px 0 0 0;
+    color:#ffffff;
+    background-color:#708090
+}
+#footer li{
+    padding: 2px;
+}
+#rslogo {
+    position: relative;
+    margin-left: 70em;
+    padding-top: 5px;
+    transform: scale(1.5);
+    width: fit-content;
 }
