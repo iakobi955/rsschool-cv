@@ -14,24 +14,23 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#Contact Info">Contact Info</a></li>
+            <li><a href="#contactInfo">Contact Info</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#summary">Summary</a></li>
-            <li><a href="#code">Code</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#languages">Lanuages</a></li>
         </ul>
     </nav>
     <section>
-        <h2 class = "Contact Info">Contact Info:</h2>
-        <ul>
+        <h2 class = "ContactInfo">Contact Info:</h2>
+        <ul id="contactInfo">
             <li><img src="images/location.png" alt="location logo">Georgia, Tbilisi</li>
             <li><img src="images/telephone-handle-silhouette.png" alt="telephone logo">+955 591 16 56 82</li>
             <li><img src="images/envelope.png" alt="email logo">iakobi@gmail.com</li>
             <li><img src="images/github-logo.png" alt="github logo">iakobi955</li>
         </ul>
         <h2 id="skills">Skills:</h2>
-        <ul>
+        <ul class = "skillsUl">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -47,26 +46,14 @@
             At the same time I want to prove that becoming a skilled programmer depends on your desire and diligence.
             My goal is to become a full stack developer at Epam Georgia.
         </p>
-        <h2 id="code">Code:</h2>
-        <p>
-            function drawWall() {
-                for(var i=0; i<NUM_ROWS; i++){
-                    for(var j=0; j<NUM_BRICKS_PER_ROW; j++){
-                        var wall = rectangle(BRICK_SPACING * (j+1) + (j * BRICK_WIDTH),
-                        BRICK_TOP_OFFSET + i*BRICK_SPACING + i * BRICK_HEIGHT);             
-                        coloringBricks(i);
-                    }
-                }
-            }
-        </p>
         <h2 id="education">Education:</h2>
-        <ul>
+        <ul id="educationUl">
             <li>Tbilisi State University's master degree in Economics</li>
             <li>freecodecamp.org - Responsive Web Design</li>
             <li>bitcamp - JavaScript Fundaments</li>
         </ul>
         <h2 id="languages">Languages:</h2>
-        <ul>
+        <ul id="languagesUl">
             <li>Georgian - native</li>
             <li>English - B2</li>
             <li>Russian - B1</li>
