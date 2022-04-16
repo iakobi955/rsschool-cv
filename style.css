@@ -1,5 +1,10 @@
 html {
     background-color: #FFF5EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 img {
     width: 20px;
@@ -15,22 +20,8 @@ ul {
     margin: 0;
     padding: 0;
 }
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 .personalPhoto {
     width: 15%;
     height:15%;
     border-radius: 8px;
-}
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    text-align: center;
 }
