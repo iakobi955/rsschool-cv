@@ -25,3 +25,33 @@ ul {
     height:15%;
     border-radius: 8px;
 }
+.personalPhoto:hover {
+    transform: scale(1.1);
+    margin: auto;
+    padding: 0%;
+    top: 5px;
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+#name:hover {
+    transform: scale(1.1);
+}
+nav {
+    background-color: #708090;
+    position: sticky;
+    top: 0;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+    margin: 8px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+nav ul li:hover {
+    background-color: #008080;
+    border-radius: 15px;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px 5px lightblue;
+}
